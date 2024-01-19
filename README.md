@@ -27,5 +27,8 @@ Note the following (explain): all components rounded and validation on input; co
 
 Explain how to add a new component
 
-Use conventions for naming tables in each spreadsheet. The table name is the spreadsheet name in lowercase and with underscores for spaces.
+Use conventions for naming tables in each spreadsheet. The table name is the spreadsheet name in lowercase and with underscores for spaces. The variable names (Name manager) are CamelCase.
+
 Discuss the difference between a resolveable assessment (Test) and an unresolvable assessment (Exam) for when student don't write.
+
+Note, mark retrieval formulae used in the Name manager allow marks to be numerical if they have a value or are explicitly set to 0, or empty text if not mark is specified (""). If INDEX-MATCH finds an empty cell as the match, it will automatically return a 0 which is undesirable. The formulae prevent this.
